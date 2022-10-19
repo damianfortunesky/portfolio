@@ -176,3 +176,21 @@ p {
   margin-top: -35px;
 }
 
+/*foto*/
+
+.div-foto{
+  background: transparent;
+  height: 80px;
+  border-radius: 12px 12px 0 0;
+  position: relative;
+}
+
+.div-foto img {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 58%; /*top: 40%;*/
+  left: 8%;/*left: 50%;*/
+  transform: translate(-50%, 0);
+}
+
